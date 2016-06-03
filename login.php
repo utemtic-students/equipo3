@@ -33,16 +33,16 @@ session_destroy();
                     <form class="form-horizontal" role="form" action="login_v.php" method="post">
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-3 control-label">
-                            Email</label>
+                            Corrreo</label>
                         <div class="col-sm-9">
-                            <input type="email" name="correo" class="form-control" id="correo" placeholder="Email" required>
+                            <input type="email" name="correo" class="form-control" id="correo" placeholder="ejemplo@utem.edu.mx" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="inputPassword3" class="col-sm-3 control-label">
-                            Password</label>
+                            Contraseña</label>
                         <div class="col-sm-9">
-                            <input type="password" name="contra" class="form-control" id="contra" placeholder="Password" required>
+                            <input type="password" name="contra" class="form-control" id="contra" placeholder="********************" required>
                         </div>
                     </div>
                     <div class="form-group">
@@ -58,16 +58,16 @@ session_destroy();
                     <div class="form-group last">
                         <div class="col-sm-offset-3 col-sm-9">
                             <button type="submit" class="btn btn-success btn-sm">
-                                Sign in</button>
+                                Iniciar Sesión</button>
                                  <button type="reset" class="btn btn-default btn-sm">
-                                Reset</button>
+                                Borrar</button>
                         </div>
                     </div>
                     </form>
                 </div>
                 <div class="panel-footer">
                     Not Registred? <a href="#">Register here</a> 
-                    -<a href="index.html" class="return">Regresar</a>
+                    -<a href="index.html" class="return">Inicio</a>
                     
                     </div>
             </div>
