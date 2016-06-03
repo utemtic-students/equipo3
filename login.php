@@ -15,7 +15,7 @@ session_destroy();
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Smart Home -Login </title>
+    <title>Smart House -Login </title>
 
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -50,7 +50,7 @@ session_destroy();
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox"/>
-                                    Remember me
+                                    Recordar
                                 </label>
                             </div>
                         </div>
@@ -66,8 +66,8 @@ session_destroy();
                     </form>
                 </div>
                 <div class="panel-footer">
-                    Not Registred? <a href="#">Register here</a> 
-                    -<a href="index.html" class="return">Inicio</a>
+                   
+                    <a href="index.html" class="return">Inicio</a>
                     
                     </div>
             </div>
