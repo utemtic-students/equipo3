@@ -1,0 +1,85 @@
+@media screen and (min-width:1024px) and (max-width:1600px)
+{
+    body
+{
+	background-color:dimgray;
+    margin: 0px 0px 0px 0px;
+}
+    .div{
+    
+	width:100%;
+	height:65px;
+	text-align: center;
+	background-color:white;
+	color:#2e8b57;
+    font-size:63px; 
+        margin-top: ;
+    }
+    .txt1{
+        color:firebrick;
+        margin-top:5px;
+        font-family:monospace;
+        text-align: center;
+    }
+    .img1{
+        margin-right:950px;
+        border-radius: 10px;
+        width:150px;
+        position: absolute;
+    }
+    .img2{
+        width: 100%;
+        height:350px;
+        display:block;
+    }
+    .c1{
+        display: inline-block;
+        width: 32%;
+        height: 150px;
+        background-color: brown;
+    }
+    .t1{
+        font-size: 33px;
+    }
+    .t2{
+        font-size: 33px;
+    }
+    .t3{
+        font-size: 33px;
+    }
+    .c1{
+          display: inline-block;
+        width: 32%;
+        height: 299px;
+        background-color: brown;
+        font-size: 35px;
+        
+    }
+    
+    .c2{
+        display: inline-block;
+        width: 32%;
+        height: 299px;
+        background-color: brown;
+        font-size: 35px;
+    }
+    .c3{
+        display: inline-block;
+        width: 32%;
+        height: 299px;
+        background-color: brown;
+        font-size: 35px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

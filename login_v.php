@@ -47,13 +47,11 @@ $result2 = mysql_query($query2);
 $row2 = mysql_fetch_array($result2);
 
 	if ($row1[0] == 1) {
-		session_start();
-		$_SESSION["correo"]=$usuario;
+		
 		header ("location:principal1.php");	
 	}
 	elseif  ($row2[0] >= 1) {
-		session_start();
-		$_SESSION["correo"]=$usuario;
+		
 		header ("location: principal2.php");	
 	}else{
 		header("location:login.php");	

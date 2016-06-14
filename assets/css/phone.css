@@ -1,0 +1,57 @@
+@media screen and (min-width:310px)  and (max-width:479px)
+{
+       body
+{
+	background-color:dimgray;
+    margin: 0px 0px 0px 0px;
+}
+    .div{
+    
+	width:100%;
+	height:40px;
+	text-align: center;
+	background-color:antiquewhite;
+	color:#2e8b57;
+    font-size:23px; 
+        margin-top: ;
+    }
+    .txt1{
+        color:firebrick;
+        margin-top:5px;
+        font-family:serif;
+        text-align: center;
+    }
+    .img1{
+        border-radius: 5px;
+        width:90px;
+        position: absolute;
+    }
+    .img2{
+        width: 100%;
+        height:230px;
+        display:block;
+    }
+    .c1{
+        display:inline-block; 
+        width: 32%;
+        height: 130px;
+        background-color: brown;
+        font-size: 12px;
+        
+    }
+    
+    .c2{
+         display:inline-block; 
+        width: 32%;
+        height: 130px;
+        background-color: brown;
+        font-size: 12px;
+    }
+    .c3{
+   display:inline-block; 
+        width: 32%;
+        height: 130px;
+        background-color: brown;
+        font-size: 12px;
+    }
+}
