@@ -155,34 +155,82 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                   <h4><strong>Smart House</strong>
-                    </h4>
-                    <p>Neyvia Gonzalez<br></p>
-                    <p>Carlos Hernández<br></p>
-                    <p>Cesar Gómez<br></p>
-                    <p>Manuel Gutierrez<br></p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (314) 33 733 10</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">A201301091@utem.edu.mx</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://www.facebook.com/SmartHouseUTeM/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Smart House 2016</p>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="card">
+                <canvas class="header-bg" width="200" height="50" id="header-blur"></canvas>
+                <div class="avatar">
+                    <img src="<?php echo site_url('img/14');?>" alt="" />
+                </div>
+                <div class="content">
+                    <p>Web Developer <br>
+                       More description here</p>
+                    <p><button type="button" class="btn btn-default">Contacto</button></p>
                 </div>
             </div>
         </div>
-    </footer>
+        <div class="col-sm-3">
+            <div class="card">
+                <canvas class="header-bg" width="200" height="50" id="header-blur"></canvas>
+                <div class="avatar">
+                    <img src="<?php echo site_url('img/2');?>" alt="" />
+                </div>
+                <div class="content">
+                    <p>Web Developer <br>
+                       More description here</p>
+                    <p><button type="button" class="btn btn-default">Contacto</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <canvas class="header-bg" width="200" height="50" id="header-blur"></canvas>
+                <div class="avatar">
+                    <img src="<?php echo site_url('img/10');?>" alt="" />
+                </div>
+                <div class="content">
+                    <p>Web Developer <br>
+                       More description here</p>
+                    <p><button type="button" class="btn btn-default">Contacto</button></p>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <canvas class="header-bg" width="200" height="50" id="header-blur"></canvas>
+                <div class="avatar">
+                    <img src="<?php echo site_url('img/15');?>" alt="" />
+                </div>
+                <div class="content">
+                    <p>Web Developer <br>
+                       More description here</p>
+                    <p><button type="button" class="btn btn-default">Contacto</button></p>
+                </div>
+
+                
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<img class="src-image"  src="<?php echo site_url('img/10');?>">
+
+<img class="src-image"  src="<?php echo site_url('img/15');?>">
+
+<img class="src-image"  src="<?php echo site_url('img/2');?>">
+
+<img class="src-image"  src="<?php echo site_url('img/14');?>">
+
 
     <!-- jQuery -->
     <script  src="<?php echo base_url('Smart_1.0/js/jquery.js');?>"></script>
