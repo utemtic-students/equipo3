@@ -155,6 +155,12 @@
     </section>
 
     <!-- Footer -->
+    <div class="container">
+    <div class="row">
+        <h1>
+        CONTACTANOS
+        </h1>
+    </div>
     <div class="row">
         <div class="col-sm-3">
             <div class="card">
@@ -223,13 +229,7 @@
 </div>
 
 
-<img class="src-image"  src="<?php echo site_url('img/10');?>">
 
-<img class="src-image"  src="<?php echo site_url('img/15');?>">
-
-<img class="src-image"  src="<?php echo site_url('img/2');?>">
-
-<img class="src-image"  src="<?php echo site_url('img/14');?>">
 
 
     <!-- jQuery -->
