@@ -32,7 +32,7 @@ session_destroy();
                 <div class="panel-heading">
                     <span class="letras_login"><img class="icono_login" src="img/0115-users.png">Login</span></div>
                 <div class="panel-body">
-                    <form class="form-horizontal" role="form" action="usuario_model.php" method="post">
+                    <form class="form-horizontal" role="form" action="login_acceder" method="post">
                     <div class="form-group">
                         <label for="inputEmail3" class="col-sm-3 control-label">
                             Correo</label>
@@ -45,13 +45,6 @@ session_destroy();
                             Contraeña</label>
                         <div class="col-sm-9">
                             <input type="password" name="contra" class="form-control" id="contra" placeholder="Contraseña" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-3 col-sm-9">
-                            <div class="checkbox">
-                               
-                            </div>
                         </div>
                     </div>
                     <div class="form-group last">

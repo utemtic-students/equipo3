@@ -10,8 +10,6 @@ class Smart extends CI_Controller {
 	function index(){
 		$this->load->view('smart/index1');
 		$this->load->view('smart/index2');
-	
-
 	}
 	function login(){
         $this->load->view('smart/login');	
@@ -19,21 +17,17 @@ class Smart extends CI_Controller {
     
     function login_acceder(){
         $this->load->model('smart/usuario_model');
-        
-        
         if(isset($_POST['contra']))
         {
-			
-            if($this->usuario_model->login($_POST['correo'],$_POST['contra'])){
-                redirect('principal1');
+            $login=$this->usuario_model->login($_POST['correo'],$_POST['contra']);
+            if($login[0]){
+                
+                redirect('smart/principal1');
             }else{
                $this->load->view('smart/login');
             }
-            
         }
     }
-	
-	
 }
 
 ?>

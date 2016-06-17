@@ -7,13 +7,16 @@ class Usuario_model extends CI_Model {
 	public function __construct()
 	{
 		parent::__construct();
+        $this->load->database();
 	}
 	public function login($correo,$contra){
-		$this->db->where('correo',$correo);
-		$this->db->where('contra',$contra);
+		$this->db->where('Correo',$correo);
+		$this->db->where('Contrasena',$contra);
 		$c = $this->db->get('login');
 		if ($c->num_rows()>0) {
-			return true; 
+            
+            /*Se va a hacer una */
+			return true; }} //[true, 0]
 		}else{
 			return false;   
 		}
