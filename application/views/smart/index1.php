@@ -13,7 +13,9 @@
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="<?php echo base_url('Smart_1.0/css/bootstrap.min.css');?>">
-     <link rel="stylesheet" href="<?php echo base_url('Smart_1.0/css/contactos.css');?>">
+      <link rel="stylesheet" href="<?php echo base_url('Smart_1.0/css/contactos.css');?>">
+
+   
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 
     <!-- Custom CSS -->

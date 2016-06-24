@@ -155,81 +155,86 @@
     </section>
 
     <!-- Footer -->
-    <div class="container">
-    <div class="row">
-        <h1>
-        CONTACTANOS
-        </h1>
-    </div>
-    <div class="row">
-        <div class="col-sm-3">
-            <div class="card">
-                <canvas class="header-bg" width="200" height="50" id="header-blur"></canvas>
-                <div class="avatar">
-                    <img src="<?php echo site_url('img/14');?>" alt="" />
+       <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+</head>
+<div class="container">
+<div class="row">
+                    <div class="col-md-12" data-wow-delay="0.2s">
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="<?php echo base_url('Smart_1.0/img/ney.jpg');?>" alt="">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="<?php echo base_url('Smart_1.0/img/manuel.jpg');?>" alt="">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="<?php echo base_url('Smart_1.0/img/carlos.jpg');?>" alt="">
+                                </li>
+                                 <li data-target="#quote-carousel" data-slide-to="3"><img class="img-responsive" src="<?php echo base_url('Smart_1.0/img/cesar.jpg');?>" alt="">
+                                </li>
+                            </ol>
+
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner text-center">
+
+                                <!-- Quote 1 -->
+                                <div class="item active">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+
+                                                <p>Neyvia G. Michel</p>
+                                                <small>Smart House</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 2 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+
+                                                <p> Manuel Gutierréz</p>
+                                                <small>Smart House</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 3 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+
+                                                <p>Carlos Hernández</p>
+                                                <small>Smart House</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                  <!-- Quote 2 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+
+                                                <p>Cesar López Gómez </p>
+                                                <small>Smart House</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                            <!-- Carousel Buttons Next/Prev -->
+                            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="content">
-                    <p>Web Developer <br>
-                       More description here</p>
-                    <p><button type="button" class="btn btn-default">Contacto</button></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card">
-                <canvas class="header-bg" width="200" height="50" id="header-blur"></canvas>
-                <div class="avatar">
-                    <img src="<?php echo site_url('img/2');?>" alt="" />
-                </div>
-                <div class="content">
-                    <p>Web Developer <br>
-                       More description here</p>
-                    <p><button type="button" class="btn btn-default">Contacto</button></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card">
-                <canvas class="header-bg" width="200" height="50" id="header-blur"></canvas>
-                <div class="avatar">
-                    <img src="<?php echo site_url('img/10');?>" alt="" />
-                </div>
-                <div class="content">
-                    <p>Web Developer <br>
-                       More description here</p>
-                    <p><button type="button" class="btn btn-default">Contacto</button></p>
-                </div>
-
-
-
-
-            </div>
-
-        </div>
-
-        <div class="col-sm-3">
-            <div class="card">
-                <canvas class="header-bg" width="200" height="50" id="header-blur"></canvas>
-                <div class="avatar">
-                    <img src="<?php echo site_url('img/15');?>" alt="" />
-                </div>
-                <div class="content">
-                    <p>Web Developer <br>
-                       More description here</p>
-                    <p><button type="button" class="btn btn-default">Contacto</button></p>
-                </div>
-
-                
-
-
-            </div>
-
-        </div>
-    </div>
 </div>
-
-
-
+<hr class="divider"/>
 
 
     <!-- jQuery -->
