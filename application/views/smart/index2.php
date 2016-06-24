@@ -185,6 +185,7 @@
 
                                                 <p>Neyvia G. Michel</p>
                                                 <small>Smart House</small>
+                                                <p>Programador y Diseñador</p>
                                             </div>
                                         </div>
                                     </blockquote>
@@ -197,6 +198,7 @@
 
                                                 <p> Manuel Gutierréz</p>
                                                 <small>Smart House</small>
+                                                <p> Programador</p>
                                             </div>
                                         </div>
                                     </blockquote>
@@ -209,6 +211,7 @@
 
                                                 <p>Carlos Hernández</p>
                                                 <small>Smart House</small>
+                                                <p> Programador y Diseñador</p>
                                             </div>
                                         </div>
                                     </blockquote>
@@ -221,11 +224,15 @@
 
                                                 <p>Cesar López Gómez </p>
                                                 <small>Smart House</small>
+                                                <p> Programador</p>
                                             </div>
                                         </div>
                                     </blockquote>
+
                                 </div>
+
                             </div>
+
 
                             <!-- Carousel Buttons Next/Prev -->
                             <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
@@ -234,6 +241,29 @@
                     </div>
                 </div>
 </div>
+<center>
+<p> <h4>Contactanos </h4></p>
+<p> <h5>3143373310 </h5></p>
+  <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/SmartHouseUTeM/?ref=aymt_homepage_panel"><i class="fa fa-facebook fa-fw fa-4x"></i></a>
+                        </li>
+                         <li>
+                            <a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1"><i class="fa fa-google fa-fw fa-4x"></i></a>
+                        </li>
+                       
+                       
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Smart House 2016</p>
+                </div>
+            </div>
+        </div>
+
+
+</center>
+
+
 <hr class="divider"/>
 
 
