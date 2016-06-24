@@ -30,7 +30,7 @@ session_destroy();
         <div class="col-md-4 col-md-offset-7">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <span class="letras_login"><img class="icono_login" src="img/0115-users.png">Login</span></div>
+                    <span class="letras_login"><img class="icono_login" src="<?php echo base_url('Smart_1.0/img/0115-users.png');?>">Login</span></div>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" action="login_acceder" method="post">
                     <div class="form-group">
