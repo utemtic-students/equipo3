@@ -13,14 +13,19 @@ class Usuario_model extends CI_Model {
 		$this->db->where('Correo',$correo);
 		$this->db->where('Contrasena',$contra);
 		$c = $this->db->get('login');
-		if ($c->num_rows()>0) {
-            
-            /*Se va a hacer una */
-			return true; }} //[true, 0]
-		}else{
-			return false;   
+		if ($c->num_rows()>0) 
+		{
+			
+			return  $c->row_array();
+			/*return true[];*/
+			//return      true[0] = "1";
+			//        	true[1] = "2";
+			/*
+			$rol3[2] = "3";
+			$rol4[3] = "4";*/
+			/*true, 0]*/
+
 		}
 	}
 }
-
 ?>
