@@ -33,9 +33,9 @@ class Smart extends CI_Controller {
             {
                redirect('administrador/index');
             }
-					else{
-						redirect('smart/login');
-					}
+			else{
+				redirect('smart/login');
+			}
         }
     }
 }

@@ -5,13 +5,11 @@
     <title>Document</title>
     
     <link rel="stylesheet" href="<?php echo base_url('Smart_1.0/css/bootstrap.min.css');?>">
-    <link rel="stylesheet" href="<?php echo base_url('Smart_1.0/css/administrador.css');?>">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/principal2.css" rel="stylesheet">
-    <script type="text/jscript" src="js/jquery-2.1.3.min.js"></script>
-    <script type="text/jscript" src="js/principal2_tablas.js"></script>
+    <link rel="stylesheet" href="<?php echo base_url('Smart_1.0/css/administrador/administrador.css');?>">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url('Smart_1.0/font-awesome/css/font-awesome.min.css');?>" rel="stylesheet">
+    <script type="text/jscript" src="<?php echo base_url('Smart_1.0/js/jquery.js');?>"></script>
+    <script src="<?php echo base_url('Smart_1.0/js/administrador/script_administrador.js');?>"></script>
 </head>
 <body>
 <!--codigo de botones de opciones-->
@@ -20,19 +18,10 @@
         <div class="col-lg-12">
           <p>
          
-            <a href="form_agregar_usuario.php" class="btn btn-sq-lg btn-success">
+            <a href="form_agregar_usuario" class="btn btn-sq-lg btn-success">
               <i class="fa fa-user fa-5x"></i><br/>
               Agregar Usuario 
-            </a>
-           
-            <a href="#" class="btn btn-sq-lg btn-warning">
-              <i class="fa fa-user fa-5x"></i><br/>
-              Modificar Usuario 
-            </a>
-            <a href="#" class="btn btn-sq-lg btn-danger">
-              <i class="fa fa-user fa-5x"></i><br/>
-             Eliminar Usuario
-            </a>
+            </a>    
           </p>
         </div>
 	</div>
@@ -59,6 +48,8 @@
                             <th>Correo</th>
                             <th>Contraseña</th>
                             <th>rol</th>
+                            <th></th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -67,37 +58,19 @@
                             <td>A20130191@utem.edu.mx</td>
                             <td>20130191</td>
                             <td>2</td>
-                           
+                            <td id="modificar_usuario" class="glyphicon glyphicon-asterisk"></td>
 
                         </tr>
-                        <tr>
-                            <td>manuel</td>
-                            <td>A20130044@utem.edu.mx</td>
-                            <td>20130044</td>
-                            <td>1</td>
-                           
-                            
-                        </tr>
-                        <tr>
-                            <td>Cesar</td>
-                            <td>A20130194@utem.edu.mx</td>
-                            <td>20130194</td>
-                            <td>1</td>
-                        </tr>
-                            <tr>
-                            <td>Neyvia</td>
-                            <td>A20130003@utem.edu.mx</td>
-                            <td>20130003</td>
-                            <td>2</td>
-                        </tr>
+                        
                     </tbody>
                 </table>   
 		</div>
 	</div>
 </div>
  
-  <a href="login.php" class="btn btn-success">Regresar</a>
+  <a href="<?php echo site_url('smart/login');?>" class="btn btn-success">Regresar</a>
 	
 </div>
+
 </body>
 </html>
