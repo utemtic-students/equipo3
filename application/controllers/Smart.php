@@ -31,7 +31,7 @@ class Smart extends CI_Controller {
             }
             else if ($login["Rol"] == 2)
             {
-               redirect('smart/principal2.2');
+               redirect('administrador/index');
             }
 					else{
 						redirect('smart/login');
