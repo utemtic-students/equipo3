@@ -44,8 +44,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                    <h2>Obten el control de tu hogar al alcance de tu mano!</h2>
+                    <p class="lead"><a target="_blank" href="http://join.deathtothestockphoto.com/"></a>.</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -69,7 +69,7 @@
                                     <strong>Ahorro energético</strong>
                                 </h4>
                                 <p>Disminuir tu gasto de energia electrica</p>
-                                <a href="#" class="btn btn-light">Saber Más</a>
+                               <!-- <a href="#" class="btn btn-light">Saber Más</a>-->
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -79,7 +79,7 @@
                                     <strong>Confort</strong>
                                 </h4>
                                 <p>bienestar y comodidades</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <!--<a href="#" class="btn btn-light">Learn More</a>-->
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -89,7 +89,7 @@
                                     <strong>Seguridad</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <!--<a href="#" class="btn btn-light">Learn More</a>-->
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -99,7 +99,7 @@
                                     <strong>Comunicaciones</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <!--<a href="#" class="btn btn-light">Learn More</a>-->
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
+            <h1>Soluciones a tu medida</h1>
         </div>
     </aside>
 
@@ -126,6 +126,7 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2>Nuestra Tecnologia</h2>
                     <hr class="small">
+                    
                    
                  
                 </div>
@@ -160,100 +161,103 @@
 </head>
 <div class="container">
 <div class="row">
-                    <div class="col-md-12" data-wow-delay="0.2s">
-                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                            <!-- Bottom Carousel Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="<?php echo base_url('Smart_1.0/img/ney.jpg');?>" alt="">
-                                </li>
-                                <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="<?php echo base_url('Smart_1.0/img/manuel.jpg');?>" alt="">
-                                </li>
-                                <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="<?php echo base_url('Smart_1.0/img/carlos.jpg');?>" alt="">
-                                </li>
-                                 <li data-target="#quote-carousel" data-slide-to="3"><img class="img-responsive" src="<?php echo base_url('Smart_1.0/img/cesar.jpg');?>" alt="">
-                                </li>
-                            </ol>
+			<div class="col-md-12" data-wow-delay="0.1s">
+			<div class="carousel slide" data-ride="carousel" id="quote-carousel">
+			<!-- Bottom Carousel Indicators -->
+			<ol class="carousel-indicators">
+			<li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="<?php echo base_url('Smart_1.0/img/ney.jpg');?>" alt="">
+			</li>
+			<li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="<?php echo base_url('Smart_1.0/img/manuel.jpg');?>" alt="">
+			</li>
+			<li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="<?php echo base_url('Smart_1.0/img/carlos.jpg');?>" alt="">
+			</li>
+			<li data-target="#quote-carousel" data-slide-to="3"><img class="img-responsive" src="<?php echo base_url('Smart_1.0/img/cesar.jpg');?>" alt="">
+			</li>
+			</ol>
 
-                            <!-- Carousel Slides / Quotes -->
-                            <div class="carousel-inner text-center">
+			<!-- Carousel Slides / Quotes -->
+			<div class="carousel-inner text-center">
 
-                                <!-- Quote 1 -->
-                                <div class="item active">
-                                    <blockquote>
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
+			<!-- Quote 1 -->
+			<div class="item active">
+			<blockquote>
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2">
+						<p><strong>Programador y Diseñador</strong></p>
+						<p><strong>Neyvia G. Michel</strong></p>          
+						<small>Smart House</small>
+					</div>
+				</div>
+			</blockquote>
+			</div>
+			<!-- Quote 2 -->
+			<div class="item">
+					<blockquote>
+						<div class="row">
+							<div class="col-sm-8 col-sm-offset-2">
+							<p><strong>Programador</strong></p>
+							<p><strong>Manuel Gutierrez C.</strong></p>  
+							<small>Smart House</small>                                             
+							</div>
+						</div>
+					</blockquote>
+			</div>
+			<!-- Quote 3 -->
+			<div class="item">
+					<blockquote>
+						<div class="row">
+							<div class="col-sm-8 col-sm-offset-2">
+							<p><strong>Programador y Diseñador</strong></p>
+							<p><strong>Carlos Hernandez</strong></p>  
+							<small>Smart House</small>
+							</div>
+						</div>
+					</blockquote>
+			</div>
+			<!-- Quote 2 -->
+			<div class="item">
+				<blockquote>
+					<div class="row">
+						<div class="col-sm-8 col-sm-offset-2">
+						<p> <strong>Programador</strong></p>
+						<p><strong>Cesar López Gómez</strong></p>
+						<small>Smart House</small>                                              
+						</div>
+					</div>
+			</blockquote>
+			</div>
 
-                                                <p>Neyvia G. Michel</p>
-                                                <small>Smart House</small>
-                                                <p>Programador y Diseñador</p>
-                                            </div>
-                                        </div>
-                                    </blockquote>
-                                </div>
-                                <!-- Quote 2 -->
-                                <div class="item">
-                                    <blockquote>
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
-
-                                                <p> Manuel Gutierréz</p>
-                                                <small>Smart House</small>
-                                                <p> Programador</p>
-                                            </div>
-                                        </div>
-                                    </blockquote>
-                                </div>
-                                <!-- Quote 3 -->
-                                <div class="item">
-                                    <blockquote>
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
-
-                                                <p>Carlos Hernández</p>
-                                                <small>Smart House</small>
-                                                <p> Programador y Diseñador</p>
-                                            </div>
-                                        </div>
-                                    </blockquote>
-                                </div>
-                                  <!-- Quote 2 -->
-                                <div class="item">
-                                    <blockquote>
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
-
-                                                <p>Cesar López Gómez </p>
-                                                <small>Smart House</small>
-                                                <p> Programador</p>
-                                            </div>
-                                        </div>
-                                    </blockquote>
-
-                                </div>
-
-                            </div>
+			</div>
 
 
-                            <!-- Carousel Buttons Next/Prev -->
-                            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-                        </div>
-                    </div>
+			<!-- Carousel Buttons Next/Prev -->
+			<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+			<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+			</div>
+			</div>
                 </div>
 </div>
+<hr>
 <center>
-<p> <h4>Contactanos </h4></p>
-<p> <h5>3143373310 </h5></p>
-  <ul class="list-inline">
-                        <li>
-                            <a href="https://www.facebook.com/SmartHouseUTeM/?ref=aymt_homepage_panel"><i class="fa fa-facebook fa-fw fa-4x"></i></a>
-                        </li>
-                         <li>
-                            <a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1"><i class="fa fa-google fa-fw fa-4x"></i></a>
-                        </li>
-                       
-                       
-                    </ul>
+	<h3>
+	<strong>Contactanos:</strong>
+	</h3>
+<strong>
+		<i class="fa fa-phone fa-3x wow bounceIn"></i>
+		<h3>(314)10-3-29-04</h3>
+			
+</strong>
+				<hr>
+					<ul class="list-inline">
+					<li>
+					<a href="https://www.facebook.com/SmartHouseUTeM/?ref=aymt_homepage_panel"><i class="fa fa-facebook fa-fw fa-4x"></i></a>
+					</li>
+					<li>
+					<a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1"><i class="fa fa-google fa-fw fa-4x"></i></a>
+					</li>
+
+
+					</ul>
                     <hr class="small">
                     <p class="text-muted">Copyright &copy; Smart House 2016</p>
                 </div>

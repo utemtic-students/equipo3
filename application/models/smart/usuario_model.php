@@ -15,16 +15,7 @@ class Usuario_model extends CI_Model {
 		$c = $this->db->get('login');
 		if ($c->num_rows()>0) 
 		{
-			
 			return  $c->row_array();
-			/*return true[];*/
-			//return      true[0] = "1";
-			//        	true[1] = "2";
-			/*
-			$rol3[2] = "3";
-			$rol4[3] = "4";*/
-			/*true, 0]*/
-
 		}
 	}
 }
