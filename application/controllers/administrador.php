@@ -2,7 +2,12 @@
 class Administrador extends CI_Controller {
 
    function index(){
-		$this->load->view('administrador/index');
+		 $this->load->model('administrador/administrador_model');
+    $data = array(
+       'enlaces' => $this->administrador_model->verDatos()
+    );
+
+    $this->load->view('administrador/index', $data);
    }
    function form_agregar_usuario(){
    	$this->load->view('administrador/form_agregar_usuario');

@@ -42,7 +42,29 @@
         </div>
 		<div class="col-md-4">
     	 <table class="table table-list-search">
-                    <thead>
+
+
+
+            <tr>
+            <td>Rol</td>
+            <td>Contraseña</td>
+            <td>Correo</td>
+            <td>N_usuario</td>
+
+            </tr>
+
+            <?php   
+                foreach ($enlaces->result() as $row) {
+                    echo "<tr>";
+                        echo "<td>".$row->Rol."</td>";
+                        echo "<td>".$row->Contrasena."</td>";
+                        echo "<td>".$row->Correo."</td>";
+                        echo "<td>".$row->N_usuario."</td>";
+                    echo "</tr>";
+                }
+
+            ?>
+                   <!--  <thead>
                         <tr>
                             <th>Usuario</th>
                             <th>Correo</th>
@@ -62,8 +84,14 @@
 
                         </tr>
                         
-                    </tbody>
+                    </tbody> -->
                 </table>   
+
+
+
+                
+
+
 		</div>
 	</div>
 </div>

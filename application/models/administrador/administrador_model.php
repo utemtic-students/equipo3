@@ -21,5 +21,14 @@ class Administrador_model extends CI_Model {
 		redirect('administrador/form_agregar_usuario');
 	}
 
+	function verDatos(){
+		$query = $this->db->get('login');
+		if ($query ->num_rows() > 0) {
+			return $query;
+		}else{
+			return FALSE;
+		}
+	}
+
 }
 ?>
