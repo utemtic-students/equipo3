@@ -54,6 +54,15 @@ class Smart extends CI_Controller {
         }
 
     }
+	function form_agregar_usuario(){
+   	$this->load->view('administrador/form_agregar_usuario');
+   }
+
+   function insertar_usuario(){
+       $this->load->model('administrador/administrador_model');
+       $login=$this->administrador_model->agregar($_POST['correo'],$_POST['contra'],$_POST['usuario'],$_POST['rol']);
+
+    }
 }
 
 ?>
