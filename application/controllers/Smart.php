@@ -35,23 +35,7 @@ class Smart extends CI_Controller {
 					redirect('smart/login');
 							}
 					}		
-   //      $this->load->model('smart/usuario_model');
-   //      if(isset($_POST['contra']))
-   //      {
-   //          $login=$this->usuario_model->login($_POST['correo'],$_POST['contra']);
-			// 			//echo $login;
-			// 		  if($login["Rol"] == 1)
-   //          {
-   //              redirect('smart/principal1.1');
-   //          }
-   //          else if ($login["Rol"] == 2)
-   //          {
-   //             redirect('administrador/index');
-   //          }
-			// else{
-			// 	redirect('smart/login');
-			// }
-        //}
+ 
 
     }
 	
