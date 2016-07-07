@@ -23,9 +23,8 @@ class Smart extends CI_Controller {
 					
 					if($login["Rol"] == 1)
 					{
-					$this->load->view('smart/principal1');
-					$this->load->view('smart/principal1.1');
-					//redirect('smart/principal1.1');
+					
+					redirect('usuario/index');
 					}
 					else if ($login["Rol"] == 2)
 					{
