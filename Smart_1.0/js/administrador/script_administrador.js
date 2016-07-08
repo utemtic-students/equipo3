@@ -44,3 +44,26 @@ $(document).ready(function() {
         }
     });
 });
+function delete_person(id)
+{
+    if(confirm('Seguro que desea borrar al cliente?'))
+    {
+        // ajax delete data to database
+        $.ajax({
+            url : "http://localhost/smarthouse-pruebas/index.php/administrador/ajax_delete/"+id,
+            type: "POST",
+            dataType: "JSON",
+            success: function(data)
+            {
+                //if success reload ajax table
+                
+                reload_table();
+            },
+            error: function (jqXHR, textStatus, errorThrown)
+            {
+                alert('Error deleting data');
+            }
+        });
+ 
+    }
+}

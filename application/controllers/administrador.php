@@ -18,6 +18,12 @@ class Administrador extends CI_Controller {
        $login=$this->administrador_model->agregar($_POST['correo'],$_POST['contra'],$_POST['usuario'],$_POST['rol']);
 
     }
+    public function ajax_delete($id)
+    {
+        $this->load->model('administrador/administrador_model');
+        $this->administrador_model->delete_by_id($id);
+        echo json_encode(array("status" => TRUE));
+    }
    
 }
 // <!-- 

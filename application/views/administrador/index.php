@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+
+    <link rel="stylesheet" href="<?php echo base_url('Smart_1.0/css/administrador/form_agregar_usuario.css');?>">
+    <link href="css/bootstrap.css" rel="stylesheet">
     
     <link rel="stylesheet" href="<?php echo base_url('Smart_1.0/css/bootstrap.min.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('Smart_1.0/css/administrador/administrador.css');?>">
@@ -50,51 +53,37 @@
             <td>Contraseña</td>
             <td>Correo</td>
             <td>N_usuario</td>
+            <td></td>             
+            <td></td>
 
             </tr>
 
             <?php   
                 foreach ($enlaces->result() as $row) {
-                    echo "<tr>";
-                        echo "<td>".$row->Rol."</td>";
+
+                    echo "<tr>";                                                                                    
+                        echo "<td>".$row->Rol."</td>";                 
                         echo "<td>".$row->Contrasena."</td>";
                         echo "<td>".$row->Correo."</td>";
-                        echo "<td>".$row->N_usuario."</td>";
+                        echo "<td>".$row->N_usuario."</td>";                           
+                        echo '<td><button id="" type="button" class="btn btn-warning" data-dismiss="modal">Modificar</button></td>';
+                        echo '<td><button id="'.$row->IdUser.'" onclick="delete_person('.$row->IdUser.')" type="button" class="btn btn-danger" data-dismiss="modal">Eliminar</button></td>';
                     echo "</tr>";
                 }
 
             ?>
-                   <!--  <thead>
-                        <tr>
-                            <th>Usuario</th>
-                            <th>Correo</th>
-                            <th>Contraseña</th>
-                            <th>rol</th>
-                            <th></th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Carlos</td>
-                            <td>A20130191@utem.edu.mx</td>
-                            <td>20130191</td>
-                            <td>2</td>
-                            <td id="modificar_usuario" class="glyphicon glyphicon-asterisk"></td>
-
-                        </tr>
-                        
-                    </tbody> -->
+                  
                 </table>   
 
-
-
-                
-
-
 		</div>
+
+
+
 	</div>
 </div>
+
+
+
  
   <a href="<?php echo site_url('smart/login');?>" class="btn btn-success">Regresar</a>
 	

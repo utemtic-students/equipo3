@@ -22,13 +22,24 @@ class Administrador_model extends CI_Model {
 	}
 
 	function verDatos(){
-		$query = $this->db->get('login');
-		if ($query ->num_rows() > 0) {
-			return $query;
-		}else{
-			return FALSE;
-		}
+		$consulta = $this->db->query("SELECT * FROM login");
+
+		return $consulta;
 	}
+	public function get_by_id($id)
+    {
+        $this->db->from($this->table);
+        $this->db->where('id',$id);
+        $query = $this->db->get();
+ 
+        return $query->row();
+    }
+    public function delete_by_id($id)
+    {
+    	$this->db->from('login');
+        $this->db->where('IdUser', $id);
+        $this->db->delete();
+    }
 
 }
 ?>
