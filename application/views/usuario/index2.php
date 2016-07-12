@@ -5,19 +5,32 @@
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
     
 
-  <div class="container">
-        <div id="carousel">
-            <figure><img src="http://lorempixel.com/186/116/nature/1" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/2" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/3" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/4" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/5" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/6" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/7" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/8" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/people/9" alt=""></figure>
+
+<div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Mathieu Richard</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#accueil">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
     </div>
+<div id="accueil">
+  <h1>Hello,</h1>
+  <h2>Mathieu Richard</h2>
+</div>
+
+
+    
+       
 
  <div class="row">
     <center>
