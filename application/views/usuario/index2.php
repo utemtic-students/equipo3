@@ -13,7 +13,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">NEYVIA KAHERY</a>
+          <a href="<?php echo site_url('smart/index');?>" class="btn btn-success">Regresar</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
