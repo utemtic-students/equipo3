@@ -10,7 +10,9 @@ class Smart extends CI_Controller {
 	function index(){
 					$this->load->view('smart/index1');
 					$this->load->view('smart/index2');
+			
 	}
+
 	function login(){
         	$this->load->view('smart/login');	
 	}    

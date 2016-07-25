@@ -144,7 +144,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3>Consigue acceso remoto a tu hogar aquí.</h3>
-                   <a href="principal2.2.php"> <img src="https://www.paypalobjects.com/webstatic/es_MX/mktg/logos-buttons/redesign/btn_10.png" alt="undefined" /></a>
+                   <a href="<?php echo site_url('pago/principal2.2');?>"> <img src="https://www.paypalobjects.com/webstatic/es_MX/mktg/logos-buttons/redesign/btn_10.png" alt="undefined" /></a>
                   <!--  <a href="#" class="btn btn-lg btn-light">Click Me!</a>
                     <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>-->
                 </div>
@@ -233,8 +233,8 @@
 
 
 			<!-- Carousel Buttons Next/Prev -->
-			<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-			<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+			<!--<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>-->
+			<!--<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>-->
 			</div>
 			</div>
                 </div>

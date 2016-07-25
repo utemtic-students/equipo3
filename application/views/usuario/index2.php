@@ -1,11 +1,5 @@
 
 <body>
-
-    <!-- Full Width Image Header with Logo -->
-    <!-- Image backgrounds are set within the full-width-pics.css file. -->
-    
-
-
 <div class="navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -48,29 +42,6 @@
 
 
 </div>
-
-
-
-    
-       
-
-
-
-
-
-   
-
-
-   
-
-
-
-
-
-
-
-
-
 
 
     </div>
