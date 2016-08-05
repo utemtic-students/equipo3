@@ -44,8 +44,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Obten el control de tu hogar al alcance de tu mano!</h2>
-                    <h3>Consigue nuestros servicios de acceso remoto!!</h3>
+                  <!--  <h2>Obten el control de tu hogar al alcance de tu mano!</h2>
+                    <h3>Consigue nuestros servicios de acceso remoto!!</h3>-->
                     <p class="lead"><a target="_blank" href=""></a>.</p>
                 </div>
             </div>
@@ -79,7 +79,7 @@
                                 <h4>
                                     <strong>Confort</strong>
                                 </h4>
-                                <p>bienestar y comodidades</p>
+                                <p>Bienestar y comodidades</p>
                                 <!--<a href="#" class="btn btn-light">Learn More</a>-->
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                                 <h4>
                                     <strong>Seguridad</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>Confianza que el hogar estará fuera de todo riesgo</p>
                                 <!--<a href="#" class="btn btn-light">Learn More</a>-->
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                                 <h4>
                                     <strong>Comunicaciones</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p> Estar conectado todo el tiempo con el hogar</p>
                                 <!--<a href="#" class="btn btn-light">Learn More</a>-->
                             </div>
                         </div>
