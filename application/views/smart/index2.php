@@ -44,8 +44,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Obten el control de tu hogar al alcance de tu mano!</h2>
-                    <p class="lead"><a target="_blank" href="http://join.deathtothestockphoto.com/"></a>.</p>
+                  <!--  <h2>Obten el control de tu hogar al alcance de tu mano!</h2>
+                    <h3>Consigue nuestros servicios de acceso remoto!!</h3>-->
+                    <p class="lead"><a target="_blank" href=""></a>.</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -78,7 +79,7 @@
                                 <h4>
                                     <strong>Confort</strong>
                                 </h4>
-                                <p>bienestar y comodidades</p>
+                                <p>Bienestar y comodidades</p>
                                 <!--<a href="#" class="btn btn-light">Learn More</a>-->
                             </div>
                         </div>
@@ -88,7 +89,7 @@
                                 <h4>
                                     <strong>Seguridad</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p>Confianza que el hogar estará fuera de todo riesgo</p>
                                 <!--<a href="#" class="btn btn-light">Learn More</a>-->
                             </div>
                         </div>
@@ -98,7 +99,7 @@
                                 <h4>
                                     <strong>Comunicaciones</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p> Estar conectado todo el tiempo con el hogar</p>
                                 <!--<a href="#" class="btn btn-light">Learn More</a>-->
                             </div>
                         </div>
@@ -142,9 +143,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                    <h3>Consigue acceso remoto a tu hogar aquí.</h3>
+                   <a href="<?php echo site_url('pago/principal2.2');?>"> <img src="https://www.paypalobjects.com/webstatic/es_MX/mktg/logos-buttons/redesign/btn_10.png" alt="undefined" /></a>
+                  <!--  <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>-->
                 </div>
             </div>
         </div>
@@ -231,8 +233,8 @@
 
 
 			<!-- Carousel Buttons Next/Prev -->
-			<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-			<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+			<!--<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>-->
+			<!--<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>-->
 			</div>
 			</div>
                 </div>

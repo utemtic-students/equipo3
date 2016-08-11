@@ -1,52 +1,47 @@
 
 <body>
-
-    <!-- Full Width Image Header with Logo -->
-    <!-- Image backgrounds are set within the full-width-pics.css file. -->
-    
-
-  <div class="container">
-        <div id="carousel">
-            <figure><img src="http://lorempixel.com/186/116/nature/1" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/2" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/3" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/4" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/5" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/6" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/7" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/nature/8" alt=""></figure>
-            <figure><img src="http://lorempixel.com/186/116/people/9" alt=""></figure>
+<div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="<?php echo site_url('smart/index');?>" class="btn btn-success">Regresar</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+          
+          </ul>
         </div>
     </div>
+
+<div id="accueil">
+
+  <h1>BIENVENIDA, NEYVIA KAHERY</h1>
+  <h2></h2>
+  <p>
+<br>
+<br>
+<br>
+<br>
 
  <div class="row">
     <center>
 
-        <a class="btn btn-default loading">Default</a>
-    <a class="btn btn-primary loading">Primary</a>
-    <a class="btn btn-danger loading">Danger</a>
-    <a class="btn btn-success loading">Success</a>
-    <a class="btn btn-info loading">Info</a>
-    <a class="btn btn-warning loading">Warning</a>
+        <a class="btn btn-default loading">A/C</a>
+    <a class="btn btn-primary loading">LuzExterior</a>
+    <a class="btn btn-danger loading">LuzInterior</a>
+    <a class="btn btn-success loading">Ventanas</a>
+    <a class="btn btn-info loading">Garage</a>
+    <a class="btn btn-warning loading">Riego</a>
 </center>
        </div>
 
 
 
 
-   
-
-
-   
-
-
-
-
-
-
-
-
-
+</div>
 
 
     </div>
