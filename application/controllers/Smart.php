@@ -26,7 +26,8 @@ class Smart extends CI_Controller {
 					if($login["Rol"] == 1)
 					{
 					
-					redirect('usuario/index');
+					//redirect('usuario/index');
+					redirect('http://192.168.1.92');
 					}
 					else if ($login["Rol"] == 2)
 					{
